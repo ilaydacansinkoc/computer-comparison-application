@@ -37,39 +37,22 @@ Hardware Devices are:
 
 ```
  CPU with attributes:
-o version (for example i5, i7 etc.)
-o frequency (for example 5.4 Ghz)
+  o version (for example i5, i7 etc.)
+  o frequency (for example 5.4 Ghz)
+  
  RAM with attributes:
-o capacity
+  o capacity
 ```
-```
-Devices Regular Computer
-Factory
-```
-```
-Gaming Computer
-Factory
-```
-```
-Device Attributes
-```
-```
-Keyboard^80 < price < 450^500 < price < 1500^ 84 <numberOfKeys< 108^
-Mouse 27 < price < 78^ 300 < price <^850
-Monitor 900 < price < 1500^ 2500 < price < 3500^ inch: 18, 21, 25, 27^
-Headphone 40 < price < 400^ 600 < price < 1900^
-CPU 8000 < price < 12000^ 14000 < price < 24000^ version: i3, i5, i^
-RAM 1500 < price < 3500 7000 < price < 19000 capacity:32,64,128,
-```
-
 The price of a device and some of the attributes could be determined randomly according to the given
-intervals above. There are also some production rules for these factories below:
-
+intervals by table. There are also some production rules for these factories below:
 ```
+
  Regular Computer Factory produces keyboards without backlight, wireless mouses, only 18 or
 21 inch monitors, headphones without microphone, i3 or i5 CPUs, 32, 64 or 128 GB RAMs.
+
  Gaming Computer Factory produces keyboards with backlight, mouses with wires, monitors
 that could be any inch, headphones with microphone, i7 or i5 CPUs, 128 or 256 GB RAMs.
+
 ```
 _Implement the following scenario by using Decorator Design Pattern._
 
